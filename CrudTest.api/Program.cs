@@ -23,7 +23,7 @@ builder.Services.AddCors(options =>
         {
             policy.WithOrigins(
                 "http://localhost:5173",
-                "https://gray-pebble-0f7aba60f.7.azurestaticapps.net/"
+                "https://gray-pebble-0f7aba60f.7.azurestaticapps.net"
 )
                   .AllowAnyHeader()
                   .AllowAnyMethod();
