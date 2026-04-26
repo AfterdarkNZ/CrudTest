@@ -21,7 +21,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReact",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173")
+            policy.WithOrigins(
+                "http://localhost:5173",
+                "https://gray-pebble-0f7aba60f.7.azurestaticapps.net/"
+)
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
