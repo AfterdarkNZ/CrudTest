@@ -122,6 +122,12 @@ http://localhost:5173
 
 ---
 
+## Azure Deployed Live Demo
+
+```text
+https://gray-pebble-0f7aba60f.7.azurestaticapps.net/
+```
+
 ## Decision Note
 
 I chose SQLite for the database because it keeps setup simple while still using a real relational database. This allowed the application to be easy to run locally without requiring SQL Server or additional configuration.
