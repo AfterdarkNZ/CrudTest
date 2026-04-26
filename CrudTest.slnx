@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CrudTest.api/CrudTest.api.csproj" />
+  <Project Path="CrudTest.Tests/CrudTest.Tests.csproj" />
+</Solution>
