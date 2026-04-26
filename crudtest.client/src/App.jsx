@@ -156,7 +156,7 @@ export default function App() {
 
   return (
     <>
-      <ToastContainer position="top-right" autoClose={2500} />
+      <ToastContainer position="top-center" autoClose={2500} />
       <div className="min-h-screen bg-slate-100 text-slate-800">
         <div className="max-w-7xl mx-auto px-4 py-8">
           {/* Header section */}
