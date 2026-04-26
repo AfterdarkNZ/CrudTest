@@ -32,12 +32,12 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Enables Swagger only in development
-if (app.Environment.IsDevelopment())
-{
+// Enables Swagger in Azure also
+
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 // Applies the CORS policy defined above
 app.UseCors("AllowReact");
