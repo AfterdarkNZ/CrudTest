@@ -55,7 +55,7 @@ Simple React frontend allows users to:
 - Delete items
 - View total stock value
 
-Additional UI improvements:
+Additional UI Personal Improvements:
 
 - Toast notifications
 - Delete confirmation prompt
