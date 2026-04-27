@@ -1,6 +1,6 @@
 // Base URL for all stock item API requests
 // Points to the ASP.NET Core backend running locally
-const API_BASE_URL = import.meta.env.VITE_API_URL;
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api/items";
 
 // GET all stock items
 export async function getItems() {
